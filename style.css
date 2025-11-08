@@ -457,3 +457,78 @@ footer a {
   margin-bottom: 6px;
   color: #333;
 }
+
+/* -----------------------------------
+   MOBILE IMPROVEMENTS
+----------------------------------- */
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 15.5px;
+    line-height: 1.55;
+  }
+
+  h1 {
+    font-size: 30px !important;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .nav .wrap {
+    padding: 10px 16px;
+  }
+
+  .drawer {
+    inset: 56px 0 auto 0;
+    padding: 18px;
+    font-size: 17px;
+  }
+
+  /* Hero */
+  .hero .wrap {
+    padding: 68px 20px 78px;
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .hero p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .badges,
+  .actions {
+    justify-content: center;
+  }
+
+  .portrait-card {
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 14px;
+  }
+
+  /* Section Padding */
+  section {
+    padding: 48px 18px;
+  }
+
+  /* Cards spacing */
+  .card {
+    padding: 18px;
+  }
+
+  /* Contact Form */
+  input, textarea {
+    font-size: 16px; /* prevents zoom on iOS */
+  }
+
+  /* Footer */
+  .foot {
+    text-align: center;
+    gap: 24px;
+  }
+}
